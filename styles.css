@@ -1,7 +1,49 @@
+html {
+  background-color: black;
+}
+
+
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: greenyellow;
+  text-align: center;
 }
 body {
   background-image: url(http://trustworks.files.wordpress.com/2011/10/zombie.jpg?w=300&h=171);
+  background-size:1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 50px;
+  background-image{
+    opacity: 5%;
+  };
+  margin: 100px;
+  text-align: center;
+  display:;
+  outline:none
+}
+h2 {
+  color:red;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.nextButton {
+  height: 100px;
+  width: 200px;
+  margin-top: 25px;
+}
+
+.char {
+  display: none;
+  font-size: 30px;
+  color: Yellow;
+
+}
+
+.choices {
+  display: none;
+  font-size: 30px;
+  color: Yellow;
 }
